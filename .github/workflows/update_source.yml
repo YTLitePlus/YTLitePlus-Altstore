@@ -15,8 +15,8 @@ jobs:
     - name: Delay for repository_dispatch event
       if: github.event_name == 'repository_dispatch'
       run: |
-        echo "Waiting for 8 minutes..."
-        sleep 480 # 8 minutes x 60 seconds
+        echo "Waiting for 10 minutes..."
+        sleep 600 # 8 minutes x 60 seconds
         
     - name: Check out repository
       uses: actions/checkout@v2
