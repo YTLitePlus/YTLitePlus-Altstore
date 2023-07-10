@@ -54,9 +54,9 @@ def update_json_file(json_file, fetched_data):
     # Add news entry if there's a new release
     news_identifier = f"release-{full_version}"
     news_entry = {
-        "title": f"YTLitePlus {full_version}",
+        "title": f"{full_version}",
         "identifier": news_identifier,
-        "caption": "New version of YTLitePlus just got released!",
+        "caption": f"Version {full_version} of YTLitePlus just got released!",
         "date": fetched_data["published_at"],
         "tintColor": "#000000",
         "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",

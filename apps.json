@@ -107,9 +107,9 @@
   ],
   "news": [
     {
-      "title": "YTLitePlus 18.27.3-2.2.1",
+      "title": "18.27.3-2.2.1",
       "identifier": "release-18.27.3-2.2.1",
-      "caption": "New version of YTLitePlus just got released!",
+      "caption": "Version 18.27.3-2.2.1 of YTLitePlus just got released!",
       "date": "2023-07-10T20:52:28Z",
       "tintColor": "#000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
