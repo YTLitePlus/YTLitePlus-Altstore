@@ -27,7 +27,9 @@ def update_json_file(json_file, fetched_data):
         data = json.load(file)
 
     app = data["apps"][0]
-    version = re.search(r"(\d+\.\d+\.\d+)", fetched_data["tag_name"]).group(1)
+    full_version = fetched_data["tag_name"].lstrip('v')
+    tag = fetched_data["tag_name"]
+    version = re.search(r"(\d+\.\d+\.\d+)", full_version).group(1)
     app["version"] = version
     app["versionDate"] = fetched_data["published_at"]
 
@@ -44,6 +46,30 @@ def update_json_file(json_file, fetched_data):
     app["versionDescription"] = description
     app["downloadURL"] = fetched_data["assets"][0]["browser_download_url"]
     app["size"] = fetched_data["assets"][0]["size"]
+
+    # Ensure 'news' key exists in data
+    if "news" not in data:
+        data["news"] = []
+
+    # Add news entry if there's a new release
+    news_identifier = f"release-{full_version}"
+    news_entry = {
+        "title": f"YTLitePlus {full_version}",
+        "identifier": news_identifier,
+        "caption": "New version of YTLitePlus just got released!",
+        "date": fetched_data["published_at"],
+        "tintColor": "#000000",
+        "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlus/main/screenshots/news/new_release.png",
+        "notify": True,
+        "url": f"https://github.com/Balackburn/YTLitePlus/releases/tag/{tag}"
+    }
+
+    # Check if the news entry already exists
+    news_entry_exists = any(item["identifier"] == news_identifier for item in data["news"])
+
+    # Add the news entry if it doesn't exist
+    if not news_entry_exists:
+        data["news"].append(news_entry)
 
     with open(json_file, "w") as file:
         json.dump(data, file, indent=2)
