@@ -23,7 +23,7 @@ def update_json_file(json_file, fetched_data):
         data = json.load(file)
 
     app = data["apps"][0]
-    
+
     # Ensure 'versions' key exists in app
     if "versions" not in app:
         app["versions"] = []
@@ -60,11 +60,12 @@ def update_json_file(json_file, fetched_data):
 
         # Add the version entry if it doesn't exist
         if not version_entry_exists:
-            app["versions"].append(version_entry)
+            # Insert the version entry at the first position
+            app["versions"].insert(0, version_entry)
 
     with open(json_file, "w") as file:
         json.dump(data, file, indent=2)
-
+        
 # Main function
 def main():
     repo_url = "Balackburn/YTLitePlus"
