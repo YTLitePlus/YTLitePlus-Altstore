@@ -50,7 +50,7 @@ def update_json_file(json_file, fetched_data):
         version_entry = {
             "version": version,
             "date": versionDate,
-            "description": description,
+            "localizedDescription": description,
             "downloadURL": downloadURL,
             "size": size
         }
