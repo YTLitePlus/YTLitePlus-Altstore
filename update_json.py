@@ -3,22 +3,28 @@ import re
 import requests
 
 # Fetch all release information from GitHub
+
+
 def fetch_all_releases(repo_url, keyword):
     api_url = f"https://api.github.com/repos/{repo_url}/releases"
     headers = {"Accept": "application/vnd.github+json"}
     response = requests.get(api_url, headers=headers)
     releases = response.json()
-    sorted_releases = sorted(releases, key=lambda x: x["published_at"], reverse=False)
+    sorted_releases = sorted(
+        releases, key=lambda x: x["published_at"], reverse=False)
 
     return [release for release in sorted_releases if keyword in release["name"]]
 
 # Fetch the latest release information from GitHub
+
+
 def fetch_latest_release(repo_url, keyword):
     api_url = f"https://api.github.com/repos/{repo_url}/releases"
     headers = {"Accept": "application/vnd.github+json"}
     response = requests.get(api_url, headers=headers)
     releases = response.json()
-    sorted_releases = sorted(releases, key=lambda x: x["published_at"], reverse=True)
+    sorted_releases = sorted(
+        releases, key=lambda x: x["published_at"], reverse=True)
 
     for release in sorted_releases:
         if keyword in release["name"]:
@@ -27,10 +33,13 @@ def fetch_latest_release(repo_url, keyword):
     raise ValueError(f"No release found containing the keyword '{keyword}'.")
 
 # Update the JSON file with the fetched data
+
+
 def remove_tags(text):
     text = re.sub('<[^<]+?>', '', text)  # Remove HTML tags
     text = re.sub(r'#{1,6}\s?', '', text)  # Remove markdown header tags
     return text
+
 
 def update_json_file(json_file, fetched_data_all, fetched_data_latest):
     with open(json_file, "r") as file:
@@ -70,7 +79,8 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
         }
 
         # Check if the version entry already exists based on downloadURL
-        version_entry_exists = any(item["downloadURL"] == downloadURL for item in app["versions"])
+        version_entry_exists = any(
+            item["downloadURL"] == downloadURL for item in app["versions"])
 
         # Add the version entry if it doesn't exist
         if not version_entry_exists:
@@ -105,9 +115,9 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
     # Add news entry if there's a new release
     news_identifier = f"release-{full_version}"
     news_entry = {
-        "title": f"YTLitePlus {full_version}",
+        "title": f"{full_version} - YTLitePlus",
         "identifier": news_identifier,
-        "caption": "New version of YTLitePlus just got released!",
+        "caption": f"Update of YTLitePlus just got released!",
         "date": fetched_data_latest["published_at"],
         "tintColor": "#000000",
         "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
@@ -116,7 +126,8 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
     }
 
     # Check if the news entry already exists
-    news_entry_exists = any(item["identifier"] == news_identifier for item in data["news"])
+    news_entry_exists = any(item["identifier"] ==
+                            news_identifier for item in data["news"])
 
     # Add the news entry if it doesn't exist
     if not news_entry_exists:
@@ -126,6 +137,8 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
         json.dump(data, file, indent=2)
 
 # Main function
+
+
 def main():
     repo_url = "Balackburn/YTLitePlus"
     json_file = "apps.json"
@@ -134,6 +147,7 @@ def main():
     fetched_data_all = fetch_all_releases(repo_url, keyword)
     fetched_data_latest = fetch_latest_release(repo_url, keyword)
     update_json_file(json_file, fetched_data_all, fetched_data_latest)
+
 
 if __name__ == "__main__":
     main()

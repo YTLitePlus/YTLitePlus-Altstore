@@ -151,7 +151,7 @@
   ],
   "news": [
     {
-      "title": "18.27.3-2.2.1",
+      "title": "18.27.3-2.2.1 - YTLitePlus",
       "identifier": "release-18.27.3-2.2.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-10T20:52:28Z",
@@ -161,9 +161,9 @@
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.27.3-2.2.1"
     },
     {
-      "title": "YTLitePlus 18.27.3-2.3",
+      "title": "18.27.3-2.3 - YTLitePlus",
       "identifier": "release-18.27.3-2.3",
-      "caption": "New version of YTLitePlus just got released!",
+      "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-15T23:02:17Z",
       "tintColor": "#000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
