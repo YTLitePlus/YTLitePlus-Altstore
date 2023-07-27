@@ -78,14 +78,15 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
             "size": size
         }
 
-        # Check if the version entry already exists based on downloadURL
-        version_entry_exists = any(
-            item["downloadURL"] == downloadURL for item in app["versions"])
+        # Check if the version entry already exists based on version
+        duplicate_entries = [item for item in app["versions"] if item["version"] == version]
 
-        # Add the version entry if it doesn't exist
-        if not version_entry_exists:
-            # Insert the version entry at the first position
-            app["versions"].insert(0, version_entry)
+        # If duplicate is found, remove it
+        if duplicate_entries:
+            app["versions"].remove(duplicate_entries[0])
+
+        # Add the version entry (either it's new or it's an update to an existing one)
+        app["versions"].insert(0, version_entry)
 
     # Now handle the latest release data (from the second script)
     full_version = fetched_data_latest["tag_name"].lstrip('v')
