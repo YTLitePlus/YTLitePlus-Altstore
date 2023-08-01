@@ -115,8 +115,11 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
 
     # Add news entry if there's a new release
     news_identifier = f"release-{full_version}"
+    import datetime
+    published_at = datetime.datetime.strptime(fetched_data_latest["published_at"], "%Y-%m-%dT%H:%M:%SZ") 
+    date_string = published_at.strftime("%d/%m/%y")
     news_entry = {
-        "title": f"{full_version} - YTLitePlus",
+        "title": f"{full_version} - YTLitePlus - {date_string}",
         "identifier": news_identifier,
         "caption": f"Update of YTLitePlus just got released!",
         "date": fetched_data_latest["published_at"],
