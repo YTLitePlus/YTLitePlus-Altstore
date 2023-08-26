@@ -8,14 +8,14 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Dayanch96 & Balackburn",
       "subtitle": "YTLite with more features!",
-      "version": "18.31.3",
-      "versionDate": "2023-08-10T07:11:52Z",
-      "versionDescription": "Current YouTube IPA: \"18.31.3\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.31.3\u20222.3.1: (2023\u202208\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.30.6\" to \"18.31.3\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)",
-      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.31.3-2.3.1/YTLitePlus_18.31.3_2.3.1.ipa",
+      "version": "18.32.2",
+      "versionDate": "2023-08-26T19:06:40Z",
+      "versionDescription": "Current YouTube IPA: \"18.32.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.32.2\u20222.3.1: (2023\u202208\u202226)\r\n\r\n\u2022 Updated Youtube from \"18.31.3\" to \"18.32.2\"\r\n\u2022 Updated  iOS SDK from \"iOS\u202215.5\u2022SDK\" to \"iOS\u202216.2\u2022SDK\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)",
+      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.32.2-2.3.1/YTLitePlus_18.32.2_2.3.1.ipa",
       "localizedDescription": "YTLite with more features! \n\nSupercharge your YouTube experience with +15 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback, +50 options\n\u2022 iSponsorBlock: Skip sponsor ads\n\u2022 YouPiP: Native PiP mode\n\u2022 YTUHD: 2K & 4K video quality\n\u2022 YouTube Dislike Return: Reinstate dislike counts\n\u2022 YTClassicVideoQuality: Old video quality selector\n\u2022 YTNoHoverCards: Disable suggested videos\n\u2022 YTABGoodies: Disable A/B testing features\n\u2022 NOYTPremium: Remove Premium upsell alerts\n\u2022 YTSpeed: Add 2.25x to 4x playback speeds\n\u2022 YTMiniplayerEnabler: Enable Miniplayer\n\u2022 DontEatMyContent: Prevent notch issues\n\u2022 YTShortsProgress: Enable Shorts progress bar\n\u2022 YTABConfig: Control A/B testing flags\n\u2022 YouMute: Mute/unmute videos\n\u2022 LowContrastMode: Reduce interface contrast\n\u2022 And many more...",
       "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlus/AltstoreSource/Youtube_logo-512.png",
       "tintColor": "e22a41",
-      "size": 103817100,
+      "size": 103997814,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlus/AltstoreSource/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlus/AltstoreSource/screenshots/2.png",
@@ -105,9 +105,16 @@
       },
       "versions": [
         {
+          "version": "18.32.2",
+          "date": "2023-08-26T19:06:40Z",
+          "localizedDescription": "Current YouTube IPA: \"18.32.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.32.2\u20222.3.1: (2023\u202208\u202226)\r\n\r\n\u2022 Updated Youtube from \"18.31.3\" to \"18.32.2\"\r\n\u2022 Updated  iOS SDK from \"iOS\u202215.5\u2022SDK\" to \"iOS\u202216.2\u2022SDK\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)",
+          "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.32.2-2.3.1/YTLitePlus_18.32.2_2.3.1.ipa",
+          "size": 103997814
+        },
+        {
           "version": "18.31.3",
           "date": "2023-08-10T07:11:52Z",
-          "localizedDescription": "Current YouTube IPA: \"18.31.3\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.31.3\u20222.3.1: (2023\u202208\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.30.6\" to \"18.31.3\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)",
+          "localizedDescription": "Current YouTube IPA: \"18.31.3\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.31.3\u20222.3.1: (2023\u202208\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.30.6\" to \"18.31.3\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Version Spoofer (lite) doesn't work",
           "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.31.3-2.3.1/YTLitePlus_18.31.3_2.3.1.ipa",
           "size": 103817100
         },
@@ -226,6 +233,16 @@
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.31.3-2.3.1"
+    },
+    {
+      "title": "18.32.2-2.3.1 - YTLitePlus  26/08/23",
+      "identifier": "release-18.32.2-2.3.1",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2023-08-26T19:06:40Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.32.2-2.3.1"
     }
   ]
 }
