@@ -55,7 +55,13 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
         full_version = release["tag_name"].lstrip('v')
         tag = release["tag_name"]
         version = re.search(r"(\d+\.\d+\.\d+)", full_version).group(1)
+        import datetime
+
         versionDate = release["published_at"]
+        date_obj = datetime.datetime.strptime(versionDate, "%Y-%m-%dT%H:%M:%SZ")
+        versionDate = date_obj.strftime("%Y-%m-%d")
+
+        print(versionDate)
 
         description = release["body"]
         keyword = "YTLitePlus Release Information"
