@@ -8,14 +8,14 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Dayanch96 & Balackburn",
       "subtitle": "YTLite with more features!",
-      "version": "18.35.4",
-      "versionDate": "2023-09-08T13:04:14Z",
-      "versionDescription": "Current YouTube IPA: \"18.35.4\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.35.4\u20222.3.1: (2023\u202209\u202208)\r\n\r\n\u2022 Updated Youtube from \"18.34.5\" to \"18.35.4\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
-      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.35.4-2.3.1/YTLitePlus_18.35.4_2.3.1.ipa",
+      "version": "18.38.2",
+      "versionDate": "2023-09-26T21:57:57Z",
+      "versionDescription": "Current YouTube IPA: \"18.38.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.38.2\u20222.3.1: (2023\u202209\u202226)\r\n\u2022 Updated Youtube from \"18.35.4\" to \"18.38.2\"\r\n\u2022 Updated Version Spoofer (Lite) (@arichorn)\r\n\u2022 New options (@arichorn)\r\n\t\u2022 Added option to Hide Account Section\r\n\t\u2022 Added option to Hide \"DontEatMyContent\" Section\r\n\t\u2022 Added option to Hide \"YouTube Return Dislike\" Section\r\n\t\u2022 Added option to Hide \"YouPiP\" Section\r\n\t\u2022 Added option to Hide \"Autoplay\" Section\r\n\t\u2022 Added option to Hide \"Try New Features\" Section\r\n\t\u2022 Added option to Hide \"Video quality preferences\" Section\r\n\t\u2022 Added option to Hide \"Notifications\" Section\r\n\t\u2022 Added option to Hide \"Manage all history\" Section\r\n\t\u2022 Added option to Hide \"Your data in YouTube\" Section\r\n\t\u2022 Added option to Hide \"Privacy\" Section\r\n\t\u2022 Added option to Hide \"Live Chat\" Section\r\n\t\u2022 Removed \"Disable Wi\u2022Fi Related Settings\"\r\n\u2022 Fixed all localizations\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
+      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.38.2-2.3.1/YTLitePlus_18.38.2_2.3.1.ipa",
       "localizedDescription": "YTLite with more features! \n\nSupercharge your YouTube experience with +15 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback, +50 options\n\u2022 iSponsorBlock: Skip sponsor ads\n\u2022 YouPiP: Native PiP mode\n\u2022 YTUHD: 2K & 4K video quality\n\u2022 YouTube Dislike Return: Reinstate dislike counts\n\u2022 YTClassicVideoQuality: Old video quality selector\n\u2022 YTNoHoverCards: Disable suggested videos\n\u2022 YTABGoodies: Disable A/B testing features\n\u2022 NOYTPremium: Remove Premium upsell alerts\n\u2022 YTSpeed: Add 2.25x to 4x playback speeds\n\u2022 YTMiniplayerEnabler: Enable Miniplayer\n\u2022 DontEatMyContent: Prevent notch issues\n\u2022 YTShortsProgress: Enable Shorts progress bar\n\u2022 YTABConfig: Control A/B testing flags\n\u2022 YouMute: Mute/unmute videos\n\u2022 LowContrastMode: Reduce interface contrast\n\u2022 And many more...",
       "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//Youtube_logo-512.png",
       "tintColor": "e22a41",
-      "size": 104407606,
+      "size": 105055550,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -104,6 +104,13 @@
         ]
       },
       "versions": [
+        {
+          "version": "18.38.2",
+          "date": "2023-09-26",
+          "localizedDescription": "Current YouTube IPA: \"18.38.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.38.2\u20222.3.1: (2023\u202209\u202226)\r\n\u2022 Updated Youtube from \"18.35.4\" to \"18.38.2\"\r\n\u2022 Updated Version Spoofer (Lite) (@arichorn)\r\n\u2022 New options (@arichorn)\r\n\t\u2022 Added option to Hide Account Section\r\n\t\u2022 Added option to Hide \"DontEatMyContent\" Section\r\n\t\u2022 Added option to Hide \"YouTube Return Dislike\" Section\r\n\t\u2022 Added option to Hide \"YouPiP\" Section\r\n\t\u2022 Added option to Hide \"Autoplay\" Section\r\n\t\u2022 Added option to Hide \"Try New Features\" Section\r\n\t\u2022 Added option to Hide \"Video quality preferences\" Section\r\n\t\u2022 Added option to Hide \"Notifications\" Section\r\n\t\u2022 Added option to Hide \"Manage all history\" Section\r\n\t\u2022 Added option to Hide \"Your data in YouTube\" Section\r\n\t\u2022 Added option to Hide \"Privacy\" Section\r\n\t\u2022 Added option to Hide \"Live Chat\" Section\r\n\t\u2022 Removed \"Disable Wi\u2022Fi Related Settings\"\r\n\u2022 Fixed all localizations\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
+          "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.38.2-2.3.1/YTLitePlus_18.38.2_2.3.1.ipa",
+          "size": 105055550
+        },
         {
           "version": "18.35.4",
           "date": "2023-09-08",
@@ -311,6 +318,16 @@
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.35.4-2.3.1"
+    },
+    {
+      "title": "18.38.2-2.3.1 - YTLitePlus  26/09/23",
+      "identifier": "release-18.38.2-2.3.1",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2023-09-26T21:57:57Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.38.2-2.3.1"
     }
   ]
 }
