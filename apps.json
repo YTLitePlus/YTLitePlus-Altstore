@@ -8,14 +8,14 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Dayanch96 & Balackburn",
       "subtitle": "YTLite with more features!",
-      "version": "18.40.1",
-      "versionDate": "2023-10-10T11:28:41Z",
-      "versionDescription": "Current YouTube IPA: \"18.40.1\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.40.1\u20222.3.1: (2023\u202210\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.39.1\" to \"18.40.1\"\r\n\u2022 Removed Broken Options\r\n\t\u2022 \"Hide \u201cDontEatMyContent\u201d Section\"\r\n\t\u2022 \"Hide \u201cYouTube Return Dislike\u201d Section\"\r\n\t\u2022 \"Hide \u201cYouPiP\u201d Section\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)",
-      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.40.1-2.3.1/YTLitePlus_18.40.1_2.3.1.ipa",
+      "version": "18.41.2",
+      "versionDate": "2023-10-18T15:00:51Z",
+      "versionDescription": "Current YouTube IPA: \"18.41.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.41.2\u20222.3.1: (2023\u202210\u202218)\r\n\r\n\u2022 Updated Youtube from \"18.40.1\" to \"18.41.2\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)",
+      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.41.2-2.3.1/YTLitePlus_18.41.2_2.3.1.ipa",
       "localizedDescription": "YTLite with more features! \n\nSupercharge your YouTube experience with +15 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback, +50 options\n\u2022 iSponsorBlock: Skip sponsor ads\n\u2022 YouPiP: Native PiP mode\n\u2022 YTUHD: 2K & 4K video quality\n\u2022 YouTube Dislike Return: Reinstate dislike counts\n\u2022 YTClassicVideoQuality: Old video quality selector\n\u2022 YTNoHoverCards: Disable suggested videos\n\u2022 YTABGoodies: Disable A/B testing features\n\u2022 NOYTPremium: Remove Premium upsell alerts\n\u2022 YTSpeed: Add 2.25x to 4x playback speeds\n\u2022 YTMiniplayerEnabler: Enable Miniplayer\n\u2022 DontEatMyContent: Prevent notch issues\n\u2022 YTShortsProgress: Enable Shorts progress bar\n\u2022 YTABConfig: Control A/B testing flags\n\u2022 YouMute: Mute/unmute videos\n\u2022 LowContrastMode: Reduce interface contrast\n\u2022 And many more...",
       "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//Youtube_logo-512.png",
       "tintColor": "e22a41",
-      "size": 105536773,
+      "size": 105479115,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -104,6 +104,13 @@
         ]
       },
       "versions": [
+        {
+          "version": "18.41.2",
+          "date": "2023-10-18",
+          "localizedDescription": "Current YouTube IPA: \"18.41.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.41.2\u20222.3.1: (2023\u202210\u202218)\r\n\r\n\u2022 Updated Youtube from \"18.40.1\" to \"18.41.2\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)",
+          "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.41.2-2.3.1/YTLitePlus_18.41.2_2.3.1.ipa",
+          "size": 105479115
+        },
         {
           "version": "18.40.1",
           "date": "2023-10-10",
@@ -362,6 +369,16 @@
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.40.1-2.3.1"
+    },
+    {
+      "title": "18.41.2-2.3.1 - YTLitePlus  18/10/23",
+      "identifier": "release-18.41.2-2.3.1",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2023-10-18T15:00:51Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.41.2-2.3.1"
     }
   ]
 }
