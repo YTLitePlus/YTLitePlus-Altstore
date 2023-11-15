@@ -28,80 +28,31 @@
       ],
       "appPermissions": {
         "entitlements": [
-          {
-            "name": "com.apple.security.application-groups"
-          },
-          {
-            "name": "com.apple.developer.associated-domains"
-          },
-          {
-            "name": "com.apple.developer.coremedia.allow-alternate-video-decoder-selection"
-          },
-          {
-            "name": "com.apple.developer.usernotifications.time-sensitive"
-          },
-          {
-            "name": "com.apple.developer.coremedia.allow-alternate-video-decoder-selection"
-          },
-          {
-            "name": "com.apple.developer.usernotifications.time-sensitive"
-          },
-          {
-            "name": "get-task-allow"
-          },
-          {
-            "name": "com.apple.developer.device-information.user-assigned-device-name"
-          },
-          {
-            "name": "com.apple.developer.group-session"
-          },
-          {
-            "name": "keychain-access-groups"
-          },
-          {
-            "name": "com.apple.developer.networking.multicast"
-          },
-          {
-            "name": "aps-environment"
-          },
-          {
-            "name": "com.apple.developer.networking.wifi-info"
-          }
+          "com.apple.security.application-groups",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "get-task-allow",
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.group-session",
+          "keychain-access-groups",
+          "com.apple.developer.networking.multicast",
+          "aps-environment",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri"
         ],
-        "privacy": [
-          {
-            "name": "AppleMusic",
-            "usageDescription": "YTLitePlus requires access to your Apple Music library."
-          },
-          {
-            "name": "BluetoothPeripheral",
-            "usageDescription": "YTLitePlus requires Bluetooth access to connect with nearby peripherals."
-          },
-          {
-            "name": "Camera",
-            "usageDescription": "YTLitePlus requires access to the camera to capture photos and videos."
-          },
-          {
-            "name": "Contacts",
-            "usageDescription": "YTLitePlus requires access to your contacts to help you share content with your friends."
-          },
-          {
-            "name": "LocalNetwork",
-            "usageDescription": "YTLitePlus requires local network access to connect and communicate with nearby devices."
-          },
-          {
-            "name": "LocationWhenInUse",
-            "usageDescription": "YTLitePlus requires access to your location while using the app to provide personalized recommendations."
-          },
-          {
-            "name": "Microphone",
-            "usageDescription": "YTLitePlus requires access to your microphone to record audio."
-          },
-          {
-            "name": "PhotoLibrary",
-            "usageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos."
-          }
-        ]
+        "privacy": {
+          "NSAppleMusicUsageDescription": "YTLitePlus requires access to your Apple Music library.",
+          "NSBluetoothPeripheralUsageDescription": "YTLitePlus requires Bluetooth access to connect with nearby peripherals.",
+          "NSCameraUsageDescription": "YTLitePlus requires access to the camera to capture photos and videos.",
+          "NSContactsUsageDescription": "YTLitePlus requires access to your contacts to help you share content with your friends.",
+          "NSLocalNetworkUsageDescription": "YTLitePlus requires local network access to connect and communicate with nearby devices.",
+          "NSLocationWhenInUseUsageDescription": "YTLitePlus requires access to your location while using the app to provide personalized recommendations.",
+          "NSMicrophoneUsageDescription": "YTLitePlus requires access to your microphone to record audio.",
+          "NSPhotoLibraryUsageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos."
+        }
       },
       "versions": [
         {
