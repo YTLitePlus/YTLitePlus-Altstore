@@ -211,7 +211,7 @@
       "identifier": "release-18.27.3-2.2.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-10",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.27.3-2.2.1"
@@ -221,7 +221,7 @@
       "identifier": "release-18.27.3-2.3",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-15",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.27.3-2.3"
@@ -231,7 +231,7 @@
       "identifier": "release-18.28.3-2.3",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-17",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.28.3-2.3"
@@ -241,7 +241,7 @@
       "identifier": "release-18.29.1-2.3",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-27",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.29.1-2.3"
@@ -251,7 +251,7 @@
       "identifier": "release-18.29.1-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-29",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.29.1-2.3.1"
@@ -261,7 +261,7 @@
       "identifier": "release-18.30.6-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-07-31",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.30.6-2.3.1"
@@ -271,7 +271,7 @@
       "identifier": "release-18.31.3-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-08-10",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.31.3-2.3.1"
@@ -281,7 +281,7 @@
       "identifier": "release-18.32.2-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-08-26",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.32.2-2.3.1"
@@ -291,7 +291,7 @@
       "identifier": "release-18.33.2-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-08-27",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.33.2-2.3.1"
@@ -301,7 +301,7 @@
       "identifier": "release-18.33.3-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-08-30",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.33.3-2.3.1"
@@ -311,7 +311,7 @@
       "identifier": "release-18.34.5-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-09-06T08:46:25Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.34.5-2.3.1"
@@ -321,7 +321,7 @@
       "identifier": "release-18.35.4-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-09-08T13:04:14Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.35.4-2.3.1"
@@ -331,7 +331,7 @@
       "identifier": "release-18.38.2-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-09-26T21:57:57Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.38.2-2.3.1"
@@ -341,7 +341,7 @@
       "identifier": "release-18.39.1-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-10-05T21:39:55Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.39.1-2.3.1"
@@ -351,7 +351,7 @@
       "identifier": "release-18.40.1-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-10-10T11:28:41Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.40.1-2.3.1"
@@ -361,7 +361,7 @@
       "identifier": "release-18.41.2-2.3.1",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-10-18T15:00:51Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.41.2-2.3.1"
@@ -371,7 +371,7 @@
       "identifier": "release-18.44.3-2.4",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-11-10T20:09:24Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.44.3-2.4"
@@ -381,7 +381,7 @@
       "identifier": "release-18.45.2-2.4",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-11-14T12:29:59Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.45.2-2.4"
@@ -391,7 +391,7 @@
       "identifier": "release-18.46.3-2.4",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-11-26T19:56:16Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.46.3-2.4"
@@ -401,7 +401,7 @@
       "identifier": "release-18.48.3-2.4",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-12-05T17:48:34Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.48.3-2.4"
@@ -411,7 +411,7 @@
       "identifier": "release-18.49.3-2.4",
       "caption": "Update of YTLitePlus just got released!",
       "date": "2023-12-24T15:23:46Z",
-      "tintColor": "#000000",
+      "tintColor": "000000",
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v18.49.3-2.4"
