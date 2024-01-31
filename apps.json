@@ -8,14 +8,14 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Dayanch96 & Various Developers",
       "subtitle": "YTLite with more features!",
-      "version": "19.03.2",
-      "versionDate": "2024-01-26T13:44:53Z",
-      "versionDescription": "Current YouTube IPA: \"19.03.2\"  \r\nCurrent YTLitePlus Version: \"2.4.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.03.2\u20222.4.1: (2024\u202201\u202226)\r\n\u2022 Updated Youtube from \"19.02.1\" to \"19.03.2\"  \r\n\u2022 Updated YTLitePlus settings to support YT \"19.03.2\"\r\n\u2022 Updated YTLite from \"2.4\" to \"2.4.1\" \r\n    \u2022 \"support 19.03.2\" @xiangfeidexiaohuo\r\n\u2022 Updated submodules\r\n    \u2022 YTABConfig \r\n    \u2022 Return\u2022YouTube\u2022Dislikes \r\n    \u2022 YTUHD \r\n    \u2022 YTVideoOverlay \r\n    \u2022 YouPiP \r\n    \u2022 YouTubeHeader \r\n    \u2022 DontEatMyContent \r\n    \u2022 YTHoldForSpeed \r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.03.2-2.4.1/YTLitePlus_19.03.2_2.4.1.ipa",
+      "version": "19.04.3",
+      "versionDate": "2024-01-31T21:22:30Z",
+      "versionDescription": "Current YouTube IPA: \"19.04.3\"  \r\nCurrent YTLitePlus Version: \"2.4.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.04.3\u20222.4.1: (2024\u202201\u202231)\r\n\r\n\u2022 Updated Youtube from \"19.03.2\" to \"19.04.3\"\r\n\u2022 Updated submodules \r\n    \u2022 DontEatMyContent  \r\n    \u2022 PSHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
+      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.04.3-2.4.1/YTLitePlus_19.04.3_2.4.1.ipa",
       "localizedDescription": "YTLite with more features! \n\nSupercharge your YouTube experience with +20 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback +50 options \n\u2022 YTUHD: Unlock 2K & 4K resolutions \n\u2022 YouPiP: Enable native Picture-in-Picture \n\u2022 YTABConfig: Control A/B testing flags \n\u2022 YouMute: Mute/unmute videos \n\u2022 DontEatMyContent: Prevent notch from covering videos \n\u2022 Return YouTube Dislikes: Reinstate dislike counts \n\u2022 iSponsorBlock: Skip sponsor ads \n\u2022 YouRememberCaption: Remember video captions \n\u2022 YTNoTracking: Disable tracking parameters \n\u2022 YTUnShorts: Remove Shorts from feed \n\u2022 YTNoCheckLocalNetwork: Disable local network permission prompt \n\u2022 BigYTMiniPlayer: Larger mini player\n\u2022 YTSpeed: Add playback speeds up to 5x\n\u2022 YTHoldForSpeed: Toggle speeds by holding video\n\u2022 YTVideoOverlay: Add buttons to video overlay \n\u2022 YouQuality: Change video quality faster\n\u2022 YTNoModernUI: Replace new UI elements \n\u2022 OLEDDarkmode: True black OLED dark mode \n\u2022 OLDDarkmode: Original grey dark mode \n\u2022 LowContrastMode: Reduce interface contrast \n\u2022 YTNoSuggestedVideo: Removes the suggested video popup when finishing a video",
       "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//Youtube_logo-512.png",
       "tintColor": "e22a41",
-      "size": 115501760,
+      "size": 112615062,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -55,6 +55,13 @@
         }
       },
       "versions": [
+        {
+          "version": "19.04.3",
+          "date": "2024-01-31",
+          "localizedDescription": "Current YouTube IPA: \"19.04.3\"  \r\nCurrent YTLitePlus Version: \"2.4.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.04.3\u20222.4.1: (2024\u202201\u202231)\r\n\r\n\u2022 Updated Youtube from \"19.03.2\" to \"19.04.3\"\r\n\u2022 Updated submodules \r\n    \u2022 DontEatMyContent  \r\n    \u2022 PSHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
+          "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.04.3-2.4.1/YTLitePlus_19.04.3_2.4.1.ipa",
+          "size": 112615062
+        },
         {
           "version": "19.03.2",
           "date": "2024-01-26",
@@ -466,6 +473,16 @@
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.03.2-2.4.1"
+    },
+    {
+      "title": "19.04.3-2.4.1 - YTLitePlus  31/01/24",
+      "identifier": "release-19.04.3-2.4.1",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-01-31T21:22:30Z",
+      "tintColor": "000000",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.04.3-2.4.1"
     }
   ]
 }
