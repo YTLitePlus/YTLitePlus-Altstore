@@ -1,6 +1,11 @@
 {
   "name": "YTLitePlus",
   "identifier": "com.ytlite.source",
+  "website": "https://balackburn.github.io/YTLitePlus",
+  "subtitle": "YTLitePlus official Altstore source.",
+  "description": "YTLite with more features! \n\nSupercharge your YouTube experience with +20 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback +50 options \n\u2022 YTUHD: Unlock 2K & 4K resolutions \n\u2022 YouPiP: Enable native Picture-in-Picture \n\u2022 YTABConfig: Control A/B testing flags \n\u2022 YouMute: Mute/unmute videos \n\u2022 DontEatMyContent: Prevent notch from covering videos \n\u2022 Return YouTube Dislikes: Reinstate dislike counts \n\u2022 iSponsorBlock: Skip sponsor ads \n\u2022 YouRememberCaption: Remember video captions \n\u2022 YTNoTracking: Disable tracking parameters \n\u2022 YTUnShorts: Remove Shorts from feed \n\u2022 YTNoCheckLocalNetwork: Disable local network permission prompt \n\u2022 BigYTMiniPlayer: Larger mini player\n\u2022 YTSpeed: Add playback speeds up to 5x\n\u2022 YTHoldForSpeed: Toggle speeds by holding video\n\u2022 YTVideoOverlay: Add buttons to video overlay \n\u2022 YouQuality: Change video quality faster\n\u2022 YTNoModernUI: Replace new UI elements \n\u2022 OLEDDarkmode: True black OLED dark mode \n\u2022 OLDDarkmode: Original grey dark mode \n\u2022 LowContrastMode: Reduce interface contrast \n\u2022 YTNoSuggestedVideo: Removes the suggested video popup when finishing a video",
+  "tintColor": "e22a41",
+  "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//Youtube_logo-512.png",
   "apps": [
     {
       "beta": false,
