@@ -15,13 +15,13 @@
       "developerName": "Dayanch96 & Various Developers",
       "subtitle": "YTLite with more features!",
       "version": "19.06.2",
-      "versionDate": "2024-02-17T16:53:30Z",
-      "versionDescription": "Current YouTube IPA: \"19.06.2\"  \r\nCurrent YTLitePlus Version: \"2.5\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.06.2\u20222.5: (2024\u202202\u202217)\r\n\r\n\u2022 Updated YTLite from \"2.4.1\" to \"2.5\"\r\n  \u2022 Added option to always show progress bar (Overlay section)\r\n  \u2022 Added option to disable autocaptions (Player section)\r\n  \u2022 Added option to enable Shorts only mode (Shorts section)\r\n  \u2022 Added option to enable Pinch gesture to enter fullscreen (Shorts section)\r\n  \u2022 Added option that opens Shorts videos as regular videos (Shorts section)\r\n  \u2022 Added option to hide Shorts source under channel name (Shorts section)\r\n  \u2022 Added option to add Explore to tab bar (Tab bar section)\r\n  \u2022 Added option to set Explore tab as startup tab (Tab bar section)\r\n  \u2022 Added option to Copy Post Text by long tap (Other section)\r\n  \u2022 Added option to Save Post Image by long tap (Other section)\r\n  \u2022 Added option to Save Profile Picture by long tap (Other section)\r\n  \u2022 Added option to Fix cover images not showing in Russia (Other section)\r\n  \u2022 Fixed Settings crash (Thanks to [[@PoomSmart](https://github.com/PoomSmart)](https://github.com/PoomSmart))\r\n  \u2022 Fixed black screen display if content warning was disabled\r\n  \u2022 Fixed Shorts progress bar not showing in some cases\r\n  \u2022 Fixed Hide Watermarks option not working\r\n  \u2022 Improved Nav bar hiding options\r\n  \u2022 Improved Shorts elements hiding options\r\n  \u2022 Improved Hide tab bar labels option\r\n  \u2022 Improved Hide search history option\r\n  \u2022 Improved ReExplore option\r\n  \u2022 Improved Sideloading fix, updated IAmYouTube tweak \r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*",
-      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.06.2-2.5/YTLitePlus_19.06.2_2.5.ipa",
+      "versionDate": "2024-02-19T09:12:36Z",
+      "versionDescription": "Current YouTube IPA: \"19.06.2\"  \r\nCurrent YTLitePlus Version: \"2.6\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.06.2\u20222.6: (2024\u202202\u202219)\r\n\r\n\u2022 Updated YTLite from \"2.5\" to \"2.6\"\r\n    \u2022 Added option to copy video information (Other section)\r\n    \u2022 Added option to copy comments (Other section)\r\n    \u2022 Added Clear cache feature (Version section)\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+      "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.06.2-2.6/YTLitePlus_19.06.2_2.6.ipa",
       "localizedDescription": "YTLite with more features! \n\nSupercharge your YouTube experience with +20 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback +50 options \n\u2022 YTUHD: Unlock 2K & 4K resolutions \n\u2022 YouPiP: Enable native Picture-in-Picture \n\u2022 YTABConfig: Control A/B testing flags \n\u2022 YouMute: Mute/unmute videos \n\u2022 DontEatMyContent: Prevent notch from covering videos \n\u2022 Return YouTube Dislikes: Reinstate dislike counts \n\u2022 iSponsorBlock: Skip sponsor ads \n\u2022 YouRememberCaption: Remember video captions \n\u2022 YTNoTracking: Disable tracking parameters \n\u2022 YTUnShorts: Remove Shorts from feed \n\u2022 YTNoCheckLocalNetwork: Disable local network permission prompt \n\u2022 BigYTMiniPlayer: Larger mini player\n\u2022 YTSpeed: Add playback speeds up to 5x\n\u2022 YTHoldForSpeed: Toggle speeds by holding video\n\u2022 YTVideoOverlay: Add buttons to video overlay \n\u2022 YouQuality: Change video quality faster\n\u2022 YTNoModernUI: Replace new UI elements \n\u2022 OLEDDarkmode: True black OLED dark mode \n\u2022 OLDDarkmode: Original grey dark mode \n\u2022 LowContrastMode: Reduce interface contrast \n\u2022 YTNoSuggestedVideo: Removes the suggested video popup when finishing a video",
       "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
-      "size": 111694328,
+      "size": 111700949,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -63,10 +63,10 @@
       "versions": [
         {
           "version": "19.06.2",
-          "date": "2024-02-17",
-          "localizedDescription": "Current YouTube IPA: \"19.06.2\"  \r\nCurrent YTLitePlus Version: \"2.5\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.06.2\u20222.5: (2024\u202202\u202217)\r\n\r\n\u2022 Updated YTLite from \"2.4.1\" to \"2.5\"\r\n  \u2022 Added option to always show progress bar (Overlay section)\r\n  \u2022 Added option to disable autocaptions (Player section)\r\n  \u2022 Added option to enable Shorts only mode (Shorts section)\r\n  \u2022 Added option to enable Pinch gesture to enter fullscreen (Shorts section)\r\n  \u2022 Added option that opens Shorts videos as regular videos (Shorts section)\r\n  \u2022 Added option to hide Shorts source under channel name (Shorts section)\r\n  \u2022 Added option to add Explore to tab bar (Tab bar section)\r\n  \u2022 Added option to set Explore tab as startup tab (Tab bar section)\r\n  \u2022 Added option to Copy Post Text by long tap (Other section)\r\n  \u2022 Added option to Save Post Image by long tap (Other section)\r\n  \u2022 Added option to Save Profile Picture by long tap (Other section)\r\n  \u2022 Added option to Fix cover images not showing in Russia (Other section)\r\n  \u2022 Fixed Settings crash (Thanks to [[@PoomSmart](https://github.com/PoomSmart)](https://github.com/PoomSmart))\r\n  \u2022 Fixed black screen display if content warning was disabled\r\n  \u2022 Fixed Shorts progress bar not showing in some cases\r\n  \u2022 Fixed Hide Watermarks option not working\r\n  \u2022 Improved Nav bar hiding options\r\n  \u2022 Improved Shorts elements hiding options\r\n  \u2022 Improved Hide tab bar labels option\r\n  \u2022 Improved Hide search history option\r\n  \u2022 Improved ReExplore option\r\n  \u2022 Improved Sideloading fix, updated IAmYouTube tweak \r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*",
-          "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.06.2-2.5/YTLitePlus_19.06.2_2.5.ipa",
-          "size": 111694328
+          "date": "2024-02-19",
+          "localizedDescription": "Current YouTube IPA: \"19.06.2\"  \r\nCurrent YTLitePlus Version: \"2.6\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.06.2\u20222.6: (2024\u202202\u202219)\r\n\r\n\u2022 Updated YTLite from \"2.5\" to \"2.6\"\r\n    \u2022 Added option to copy video information (Other section)\r\n    \u2022 Added option to copy comments (Other section)\r\n    \u2022 Added Clear cache feature (Version section)\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+          "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v19.06.2-2.6/YTLitePlus_19.06.2_2.6.ipa",
+          "size": 111700949
         },
         {
           "version": "19.05.3",
@@ -533,6 +533,16 @@
       "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
       "notify": true,
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.06.2-2.5"
+    },
+    {
+      "title": "19.06.2-2.6 - YTLitePlus  19/02/24",
+      "identifier": "release-19.06.2-2.6",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-02-19T09:12:36Z",
+      "tintColor": "000000",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.06.2-2.6"
     }
   ]
 }
