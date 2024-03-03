@@ -10,7 +10,7 @@
   "apps": [
     {
       "beta": false,
-      "name": "Youtube (YTLitePlus)",
+      "name": "YTLitePlus",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Dayanch96 & Various Developers",
       "subtitle": "YTLite with more features!",
