@@ -73,8 +73,8 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
         description = re.sub(r'-', '•', description)
         description = re.sub(r'`', '"', description)
 
-        downloadURL = release["assets"][0]["browser_download_url"]
-        size = release["assets"][0]["size"]
+        downloadURL = release["assets"][0]["browser_download_url"] if release["assets"] else None
+        size = release["assets"][0]["size"] if release["assets"] else None
 
         version_entry = {
             "version": version,
@@ -112,8 +112,8 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
     description = re.sub(r'`', '"', description)
 
     app["versionDescription"] = description
-    app["downloadURL"] = fetched_data_latest["assets"][0]["browser_download_url"]
-    app["size"] = fetched_data_latest["assets"][0]["size"]
+    app["downloadURL"] = fetched_data_latest["assets"][0]["browser_download_url"] if fetched_data_latest["assets"] else None
+    app["size"] = fetched_data_latest["assets"][0]["size"] if fetched_data_latest["assets"] else None
 
     # Ensure 'news' key exists in data
     if "news" not in data:
