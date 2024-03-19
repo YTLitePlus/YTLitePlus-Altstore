@@ -2,8 +2,6 @@ name: Update apps.json everyday
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-    types: [update-altstore-source-trigger]
 
 jobs:
   update_json:
