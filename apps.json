@@ -1,7 +1,7 @@
 {
   "name": "YTLitePlus",
   "identifier": "com.ytlite.source",
-  "website": "https://balackburn.github.io/YTLitePlus",
+  "website": "https://ytliteplus.github.io",
   "subtitle": "YTLitePlus official Altstore source.",
   "description": "This is the official Altstore source for YTLitePlus.\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks.\n\nFor full details on what's included, check the GitHub repository:\nhttps://github.com/Balackburn/YTLitePlus",
   "tintColor": "e22a41",
