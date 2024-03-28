@@ -129,7 +129,7 @@ def update_json_file(json_file, fetched_data_all, fetched_data_latest):
         "caption": f"Update of YTLitePlus just got released!",
         "date": fetched_data_latest["published_at"],
         "identifier": news_identifier,
-        "imageURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/news/new_release.png",
+        "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
         "notify": True,
         "tintColor": "000000",
         "title": f"{full_version} - YTLitePlus  {date_string}",
