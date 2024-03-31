@@ -17,7 +17,7 @@
       "version": "19.12.3",
       "versionDate": "2024-03-27T22:03:09Z",
       "versionDescription": "Current YouTube IPA: \"19.12.3\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.12.3\u20223.0.1: (2024\u202203\u202227)\r\n\r\n\u2022 Updated Youtube from \"19.10.7\" to \"19.12.3\"\r\n\u2022 Updated submodules\r\n   \u2022 YTUHD \r\n   \u2022 YouPiP \r\n   \u2022 YouTubeHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-      "downloadURL": "https://files.catbox.moe/rlfdqb.ipa",
+      "downloadURL": "https://litter.catbox.moe/kz63f7.ipa",
       "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo",
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
@@ -66,7 +66,7 @@
           "version": "19.12.3",
           "date": "2024-03-27",
           "localizedDescription": "Current YouTube IPA: \"19.12.3\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.12.3\u20223.0.1: (2024\u202203\u202227)\r\n\r\n\u2022 Updated Youtube from \"19.10.7\" to \"19.12.3\"\r\n\u2022 Updated submodules\r\n   \u2022 YTUHD \r\n   \u2022 YouPiP \r\n   \u2022 YouTubeHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://files.catbox.moe/rlfdqb.ipa",
+          "downloadURL": "https://litter.catbox.moe/kz63f7.ipa",
           "size": 112264171
         },
         {
