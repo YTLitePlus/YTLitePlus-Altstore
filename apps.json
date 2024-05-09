@@ -14,15 +14,15 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Various Developers",
       "subtitle": "YTLite with more features!",
-      "version": "19.16.3",
-      "versionDate": "2024-04-27T21:46:28Z",
-      "versionDescription": "Current YouTube IPA: \"19.16.3\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.16.3\u20223.0.1: (2024\u202204\u202227)\r\n\r\n\u2022 Updated Youtube from \"19.14.3\" to \"19.16.3\"\r\n\u2022 Updated submodules\r\n  \r\nIssues in this Release:\r\n\u2022 Changing app icons doesn't work \r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-      "downloadURL": "https://github.com/YTLitePlus/YTLitePlus/releases/download/v19.16.3-3.0.1/YTLitePlus_19.16.3_3.0.1.ipa",
+      "version": "19.18.2",
+      "versionDate": "2024-05-09T15:44:51Z",
+      "versionDescription": "Current YouTube IPA: \"19.18.2\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.18.2\u20223.0.1: (2024\u202205\u202209)\r\n\r\n\u2022 Updated Youtube from \"19.17.2\" to \"19.18.2\"\r\n\u2022 Updated submodules\r\n  \r\nIssues in this Release:\r\n\u2022 Homescreen is bugged when \u2018All\u2019 is selected 116\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+      "downloadURL": "https://github.com/YTLitePlus/YTLitePlus/releases/download/v19.18.2-3.0.1/YTLitePlus_19.18.2_3.0.1.ipa",
       "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo",
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
-      "size": 113674844,
+      "size": 113796369,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -63,172 +63,186 @@
       },
       "versions": [
         {
+          "version": "19.18.2",
+          "date": "2024-05-09",
+          "localizedDescription": "Current YouTube IPA: \"19.18.2\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.18.2\u20223.0.1: (2024\u202205\u202209)\r\n\r\n\u2022 Updated Youtube from \"19.17.2\" to \"19.18.2\"\r\n\u2022 Updated submodules\r\n  \r\nIssues in this Release:\r\n\u2022 Homescreen is bugged when \u2018All\u2019 is selected 116\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+          "downloadURL": "https://github.com/YTLitePlus/YTLitePlus/releases/download/v19.18.2-3.0.1/YTLitePlus_19.18.2_3.0.1.ipa",
+          "size": 113796369
+        },
+        {
+          "version": "19.17.2",
+          "date": "2024-05-05",
+          "localizedDescription": "Current YouTube IPA: \"19.17.2\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.17.2\u20223.0.1: (2024\u202205\u202205)\r\n\r\n\u2022 Updated Youtube from \"19.16.3\" to \"19.17.2\"\r\n\u2022 Updated submodules\r\n\u2022 Removal of custom icons (because they weren't functional)\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+          "downloadURL": null,
+          "size": null
+        },
+        {
           "version": "19.16.3",
           "date": "2024-04-27",
           "localizedDescription": "Current YouTube IPA: \"19.16.3\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.16.3\u20223.0.1: (2024\u202204\u202227)\r\n\r\n\u2022 Updated Youtube from \"19.14.3\" to \"19.16.3\"\r\n\u2022 Updated submodules\r\n  \r\nIssues in this Release:\r\n\u2022 Changing app icons doesn't work \r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://github.com/YTLitePlus/YTLitePlus/releases/download/v19.16.3-3.0.1/YTLitePlus_19.16.3_3.0.1.ipa",
-          "size": 113674844
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.14.3",
           "date": "2024-04-13",
           "localizedDescription": "Current YouTube IPA: \"19.14.3\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.14.3\u20223.0.1: (2024\u202204\u202213)\r\n\r\n\u2022 Updated Youtube from \"19.12.3\" to \"19.14.3\"\r\n\u2022 Added German Localization @zSaaiq & @AlexInABox\r\n\u2022 Added Tweak YouGroupSettings @Poomsmart\r\n\u2022 Updated Submodules\r\n    \u2022 YTABConfig\r\n    \u2022 protobuf \r\n    \u2022 Return YouTube Dislikes \r\n    \u2022 YouTubeHeader \r\n    \u2022 YouPiP \r\n    \u2022 iSponsorBlock \r\n    \u2022 YTUHD\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://files.catbox.moe/rp45kz.ipa",
-          "size": 113040686
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.12.3",
           "date": "2024-03-27",
           "localizedDescription": "Current YouTube IPA: \"19.12.3\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.12.3\u20223.0.1: (2024\u202203\u202227)\r\n\r\n\u2022 Updated Youtube from \"19.10.7\" to \"19.12.3\"\r\n\u2022 Updated submodules\r\n   \u2022 YTUHD \r\n   \u2022 YouPiP \r\n   \u2022 YouTubeHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://litter.catbox.moe/kz63f7.ipa",
-          "size": 112264171
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.10.7",
           "date": "2024-03-23",
           "localizedDescription": "Current YouTube IPA: \"19.10.7\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.10.7\u20223.0.1: (2024\u202203\u202223)\r\n\r\n\u2022 Updated Youtube from \"19.10.5\" to \"19.10.7\"\r\n\u2022 Updated submodules\r\n  \r\nIssues in this Release:\r\n\u2022 On some device iSponsorBlock crash, disable it to fix the crash\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://files.catbox.moe/ta45nq.ipa",
-          "size": 112264171
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.10.5",
           "date": "2024-03-11",
-          "localizedDescription": "Current YouTube IPA: \"19.10.5\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.10.5\u20223.0.1: (2024\u202203\u202211)\r\n\r\n\u2022 Updated Youtube from \"19.9.04\" to \"19.10.5\"\r\n\u2022  Updated Submodules\r\n\t\u2022 YTLite \r\n\t\t\u2022 Updated Localizations\r\n\t\u2022 YTUHD \r\n\t\u2022 protobuf \r\n\t\u2022 DontEatMyContent \r\n\t\u2022 YouTubeHeader \r\n\t\u2022 iSponsorBlock\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://files.catbox.moe/ta45nq.ipa",
-          "size": 112264171
+          "localizedDescription": "Current YouTube IPA: \"19.10.5\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.10.5\u20223.0.1: (2024\u202203\u202211)\r\n\r\n\u2022 Updated Youtube from \"19.09.04\" to \"19.10.5\"\r\n\u2022  Updated Submodules\r\n\t\u2022 YTLite \r\n\t\t\u2022 Updated Localizations\r\n\t\u2022 YTUHD \r\n\t\u2022 protobuf \r\n\t\u2022 DontEatMyContent \r\n\t\u2022 YouTubeHeader \r\n\t\u2022 iSponsorBlock\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.09.4",
           "date": "2024-03-07",
           "localizedDescription": "Current YouTube IPA: \"19.09.4\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.09.4\u20223.0.1: (2024\u202203\u202207)\r\n\r\n\u2022 Updated Youtube from \"19.09.3\" to \"19.09.4\"\r\n\u2022 Updated YTLite from \"3.0\" to \"3.0.1\"\r\n    \u2022 Fixed random crashes when auto\u2022skip shorts option enabled\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://archive.org/download/ytlite-plus-19.05.3-2.4.1/YTLitePlus_19.09.4_3.0.1.ipa",
-          "size": 114383760
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.09.3",
           "date": "2024-03-06",
-          "localizedDescription": "Current YouTube IPA: \"19.09.3\"  \r\nCurrent YTLite Version: \"3.0\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.09.3\u20223.0: (2024\u202203\u202206)\r\n\r\n\u2022  Updated YTLite from \"2.7\" to \"3.0\"\r\n\t\u2022 Added option to set premium logo\r\n\t\u2022 Added option to show ios volume hud in fullscreen mode\r\n\t\u2022 Added option to show end time in player bar\r\n\t\u2022 Added option to disable two finger double tap (snap to next chapter)\r\n\t\u2022 Added option to pause playback with overlay\r\n\t\u2022 Added option to auto\u2022skip to next shorts video\r\n\t\u2022 Added option to call ios share sheet instead of yt's (Thanks to [[@jkhsjdhjs](https://github.com/jkhsjdhjs)](https://github.com/jkhsjdhjs))\r\n\t\u2022 Added Hold to speed customization feature\r\n\t\u2022 Added Default playback rate selection feature\r\n\t\u2022 Added the ability to show/hide the \"You\" tab (without it, settings is unreachable). Activates by long pressing on the Home tab.\r\n\t\u2022 Added the ability to instantly apply tab settings\r\n\t\u2022 Switched to custom UserDefaults class by extending NSUserDefaults (Thanks to [[@danpashin](https://github.com/danpashin)](https://github.com/danpashin))\r\n\t\u2022 Added a category to NSBundle for accessing a default bundle instance (Thanks to [[@danpashin](https://github.com/danpashin)](https://github.com/danpashin))\r\n\r\n \u26a0\ufe0f\u26a0\ufe0f All .ipa's will be removed within the next 24 hours because of a Youtube DMCA Notice \u26a0\ufe0f\u26a0\ufe0f\r\nToday I received a DMCA takedown notice for all the YTLitePlus ipa's, I will remove them tomorrow at 3:36 PM UTC \r\n\r\nFor more information please check : \r\nhttps://www.reddit.com/r/jailbreak/comments/1b86tiz/balackburn_here_maintainer_of_ytliteplus_ive_just/\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.09.3-3.0/YTLitePlus_19.09.3_3.0.ipa",
-          "size": 112199163
+          "localizedDescription": "Current YouTube IPA: \"19.09.3\"  \r\nCurrent YTLite Version: \"3.0\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.09.3\u20223.0: (2024\u202203\u202206)\r\n\r\n\u2022  Updated YTLite from \"2.7\" to \"3.0\"\r\n\t\u2022 Added option to set premium logo\r\n\t\u2022 Added option to show ios volume hud in fullscreen mode\r\n\t\u2022 Added option to show end time in player bar\r\n\t\u2022 Added option to disable two finger double tap (snap to next chapter)\r\n\t\u2022 Added option to pause playback with overlay\r\n\t\u2022 Added option to auto\u2022skip to next shorts video\r\n\t\u2022 Added option to call ios share sheet instead of yt's (Thanks to [[@jkhsjdhjs](https://github.com/jkhsjdhjs)](https://github.com/jkhsjdhjs))\r\n\t\u2022 Added Hold to speed customization feature\r\n\t\u2022 Added Default playback rate selection feature\r\n\t\u2022 Added the ability to show/hide the \"You\" tab (without it, settings is unreachable). Activates by long pressing on the Home tab.\r\n\t\u2022 Added the ability to instantly apply tab settings\r\n\t\u2022 Switched to custom UserDefaults class by extending NSUserDefaults (Thanks to [[@danpashin](https://github.com/danpashin)](https://github.com/danpashin))\r\n\t\u2022 Added a category to NSBundle for accessing a default bundle instance (Thanks to [[@danpashin](https://github.com/danpashin)](https://github.com/danpashin))\r\n\r\n \u26a0\ufe0f\u26a0\ufe0f All .ipa's will be removed within the next 24 hours because of a Youtube DMCA Notice \u26a0\ufe0f\u26a0\ufe0f\r\nToday I received a DMCA takedown notice for all the YTLitePlus ipa's, I will remove them tomorrow at 3:36 PM UTC \r\nEDIT : Removed them earlier, they are gone.\r\n\r\nFor more information please check : \r\nhttps://www.reddit.com/r/jailbreak/comments/1b86tiz/balackburn_here_maintainer_of_ytliteplus_ive_just/\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.08.2",
           "date": "2024-02-28",
           "localizedDescription": "Current YouTube IPA: \"19.08.2\"  \r\nCurrent YTLite Version: \"2.7\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.08.2\u20222.7: (2024\u202202\u202228)\r\n\r\n\u2022 Updated Youtube from \"19.06.2\" to \"19.08.2\"\r\n    \u2022 Fixed bugs, improved performance, drank way too much coffee.\r\n    \r\n\u2022 Updated YTLite from \"2.6.1\" to \"2.7\"\r\n    \u2022 Copy post text feature replaced with Post manager: Copy post text or save/copy post as image \r\n    \u2022 Fixed copy comment issue\r\n    \u2022 Copy comment text feature replaced with Comment manager: Copy comment text or save/copy comment as image\r\n    \u2022 Auto select quality for Wifi and Cellular data (Default, Best or Custom quality)\r\n    \u2022 Added options to hide Download, Watch later, Save to Playlist, Share, Not interested, Don't recommend and report buttons from the video menu \r\n    \u2022 Added options to hide Remix, Clip and Download buttons under the video player (Thanks to @PoomSmart)\r\n    \u2022 Save Post image moved to Post manager (long tap on post) \r\n    \u2022 Improved YTLite UI\r\n    \r\n\u2022 Updated submodules \r\n    \u2022 iSponsorBlock\r\n    \u2022 DontEatMyContent\r\n    \u2022 YouTubeHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.08.2-2.7/YTLitePlus_19.08.2_2.7.ipa",
-          "size": 112048023
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.06.2",
           "date": "2024-02-21",
           "localizedDescription": "Current YouTube IPA: \"19.06.2\"  \r\nCurrent YTLite Version: \"2.6.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.06.2\u20222.6.1: (2024\u202202\u202221)\r\n\r\n\u2022 Updated YTLite from \"2.6\" to \"2.6.1\"\r\n    \u2022 Vietnamese localization support\r\n    \u2022 Fixed layout issues\r\n    \u2022 Fixed copy comment issues\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.06.2-2.6.1/YTLitePlus_19.06.2_2.6.1.ipa",
-          "size": 111705870
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.05.3",
           "date": "2024-02-07",
           "localizedDescription": "Current YouTube IPA: \"19.05.3\"  \r\nCurrent YTLitePlus Version: \"2.4.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.05.3\u20222.4.1: (2024\u202202\u202207)\r\n\r\n\u2022 Updated Youtube from \"19.04.3\" to \"19.05.3\"\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.05.3-2.4.1/YTLitePlus_19.05.3_2.4.1.ipa",
-          "size": 119297942
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.04.3",
           "date": "2024-01-31",
           "localizedDescription": "Current YouTube IPA: \"19.04.3\"  \r\nCurrent YTLitePlus Version: \"2.4.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.04.3\u20222.4.1: (2024\u202201\u202231)\r\n\r\n\u2022 Updated Youtube from \"19.03.2\" to \"19.04.3\"\r\n\u2022 Updated submodules \r\n    \u2022 DontEatMyContent  \r\n    \u2022 PSHeader\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.04.3-2.4.1/YTLitePlus_19.04.3_2.4.1.ipa",
-          "size": 112614181
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.03.2",
           "date": "2024-01-26",
           "localizedDescription": "Current YouTube IPA: \"19.03.2\"  \r\nCurrent YTLitePlus Version: \"2.4.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.03.2\u20222.4.1: (2024\u202201\u202226)\r\n\u2022 Updated Youtube from \"19.02.1\" to \"19.03.2\"  \r\n\u2022 Updated YTLitePlus settings to support YT \"19.03.2\"\r\n\u2022 Updated YTLite from \"2.4\" to \"2.4.1\" \r\n    \u2022 \"support 19.03.2\" @xiangfeidexiaohuo\r\n\u2022 Updated submodules\r\n    \u2022 YTABConfig \r\n    \u2022 Return\u2022YouTube\u2022Dislikes \r\n    \u2022 YTUHD \r\n    \u2022 YTVideoOverlay \r\n    \u2022 YouPiP \r\n    \u2022 YouTubeHeader \r\n    \u2022 DontEatMyContent \r\n    \u2022 YTHoldForSpeed \r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.03.2-2.4.1/YTLitePlus_19.03.2_2.4.1.ipa",
-          "size": 115501760
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.02.1",
           "date": "2024-01-17",
           "localizedDescription": "Current YouTube IPA: \"19.02.1\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.02.1\u20222.4: (2024\u202201\u202217)\r\n\r\n\u2022 Updated Youtube from \"19.01.1\" to \"19.02.1\"\r\n\u2022 Added French localization for \"YTNoSuggestedVideo\"\r\n\u2022 Added Japanese (@SKEIDs) localization for \"YTNoSuggestedVideo\"\r\n\u2022 Updated submodules \r\n    \u2022 YTHoldForSpeed\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.02.1-2.4/YTLitePlus_19.02.1_2.4.ipa",
-          "size": 111086384
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "19.01.1",
           "date": "2024-01-13",
           "localizedDescription": "Current YouTube IPA: \"19.01.1\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.01.1\u20222.4: (2024\u202201\u202211)\r\n\r\n\u2022 Updated Youtube from \"18.49.3\" to \"19.01.1\"\r\n\u2022 Added \"YTNoSuggestedVideo\"\r\n\u2022 Added zh_TW tranlations by @olivertzen\r\n\u2022 Updated submodules\r\n   \u2022 YouPiP\r\n   \u2022 DontEatMyContent\r\n   \u2022 YouQuality \r\n   \u2022 YouMute \r\n   \u2022 YTVideoOverlay \r\n   \u2022 YTABConfig\r\n   \u2022 iSponsorBlock\r\n   \u2022 YTLite\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.46.5\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v19.01.1-2.4/YTLitePlus_19.01.1_2.4.ipa",
-          "size": 111109506
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.49.3",
           "date": "2023-12-24",
           "localizedDescription": "Current YouTube IPA: \"18.49.3\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.49.3\u20222.4: (2023\u202212\u202224)\r\n\r\n\u2022 Updated Youtube from \"18.48.3\" to \"18.49.3\"\r\n\u2022 Updated Submodules\r\n   \u2022 YouTubeHeader\r\n   \u2022 YouQuality\r\n   \u2022 YTHoldForSpeed \r\n   \u2022 YTABConfig \r\n   \u2022 YTVideoOverlay \r\n   \u2022 YouMute\r\n   \u2022 DontEatMyContent\r\n\u2022 Added YTNoTracking @arichorn \r\n\u2022 Updated Version Spoofer Options @arichorn \r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.05.7\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.49.3-2.4/YTLitePlus_18.49.3_2.4.ipa",
-          "size": 111538288
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.48.3",
           "date": "2023-12-05",
           "localizedDescription": "Current YouTube IPA: \"18.48.3\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.48.3\u20222.4: (2023\u202212\u202205)\r\n\r\n\u2022 Updated Youtube from \"18.46.3\" to \"18.48.3\"\r\n\u2022 Updated submodules\r\n\u2022 New \"Hide Shorts\" option (YTUnShorts) from @poomsmart\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.05.7\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Hiding Shorts creates an empty black space instead 55",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.48.3-2.4/YTLitePlus_18.48.3_2.4.ipa",
-          "size": 111274005
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.46.3",
           "date": "2023-11-26",
           "localizedDescription": "Current YouTube IPA: \"18.46.3\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.46.3\u20222.4: (2023\u202211\u202224)\r\n\r\n\u2022 Updated Youtube from \"18.45.2\" to \"18.46.3\"\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.05.7\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.46.3-2.4/YTLitePlus_18.46.3_2.4.ipa",
-          "size": 110950856
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.45.2",
           "date": "2023-11-14",
           "localizedDescription": "Current YouTube IPA: \"18.45.2\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.45.2\u20222.4: (2023\u202211\u202214)\r\n\r\n\u2022 Updated Youtube from \"18.44.3\" to \"18.45.2\"\r\n \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.05.7\u2022v17.38.10)*\r\n\u2022 Shorts are not hidden everywhere *(problem with YTLite tweak)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Options Hide \"Super Thanks button\" & \"Hide Description\" will make shorts crash",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.45.2-2.4/YTLitePlus_18.45.2_2.4.ipa",
-          "size": 106847956
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.44.3",
           "date": "2023-11-10",
           "localizedDescription": "Current YouTube IPA: \"18.44.3\"  \r\nCurrent YTLitePlus Version: \"2.4\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.44.3\u20222.4: (2023\u202211\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.41.2\" to \"18.44.3\"\r\n\u2022 Updated YTLite from \"2.3.1\" to \"2.4\" @dayanch96\r\n\u2022 Updated submodules \r\n\t\u2022 YTUHD\r\n\t\u2022 YTVideoOverlay\r\n\t\u2022 YouTubeHeader\r\n\t\u2022 Return\u2022YouTube\u2022Dislikes\r\n\t\u2022 YTUHD\r\n\t\u2022 YTVideoOverlay\r\n\t\u2022 YouPiP\r\n\t\u2022 YTHoldForSpeed\r\n\t\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v16.05.7\u2022v17.38.10)*\r\n\u2022 Shorts are not hidden everywhere *(problem with YTLite tweak)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Age\u2022restricted videos don't load correctly 29 *(enable \"Skip content warning\" in YTlite settings to resolve this issue)*\r\n\u2022 Options Hide \"Super Thanks button\" & \"Hide Description\" will make shorts crash",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.44.3-2.4/YTLitePlus_18.44.3_2.4.ipa",
-          "size": 106847881
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.41.2",
           "date": "2023-10-18",
           "localizedDescription": "Current YouTube IPA: \"18.41.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.41.2\u20222.3.1: (2023\u202210\u202218)\r\n\r\n\u2022 Updated Youtube from \"18.40.1\" to \"18.41.2\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 Options \"Hide Superthanks button\" & \"Hide Description\" will make shorts crash",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.41.2-2.3.1/YTLitePlus_18.41.2_2.3.1.ipa",
-          "size": 105479115
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.40.1",
           "date": "2023-10-10",
           "localizedDescription": "Current YouTube IPA: \"18.40.1\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.40.1\u20222.3.1: (2023\u202210\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.39.1\" to \"18.40.1\"\r\n\u2022 Removed Broken Options\r\n\t\u2022 \"Hide \u201cDontEatMyContent\u201d Section\"\r\n\t\u2022 \"Hide \u201cYouTube Return Dislike\u201d Section\"\r\n\t\u2022 \"Hide \u201cYouPiP\u201d Section\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.40.1-2.3.1/YTLitePlus_18.40.1_2.3.1.ipa",
-          "size": 105536773
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.39.1",
           "date": "2023-10-05",
           "localizedDescription": "Current YouTube IPA: \"18.39.1\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.39.1\u20222.3.1: (2023\u202210\u202205)\r\n\r\n\u2022 Updated Youtube from \"18.38.2\" to \"18.39.1\"\r\n\u2022 Fixed untranslated localizations (APP_SETTINGS_OVERLAY_OPTIONS and APP_VERSION_SPOOFER_LITE)\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.39.1-2.3.1/YTLitePlus_18.39.1_2.3.1.ipa",
-          "size": 105359701
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.38.2",
           "date": "2023-09-26",
           "localizedDescription": "Current YouTube IPA: \"18.38.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.38.2\u20222.3.1: (2023\u202209\u202226)\r\n\u2022 Updated Youtube from \"18.35.4\" to \"18.38.2\"\r\n\u2022 Updated Version Spoofer (Lite) (@arichorn)\r\n\u2022 New options (@arichorn)\r\n\t\u2022 Added option to Hide Account Section\r\n\t\u2022 Added option to Hide \"DontEatMyContent\" Section\r\n\t\u2022 Added option to Hide \"YouTube Return Dislike\" Section\r\n\t\u2022 Added option to Hide \"YouPiP\" Section\r\n\t\u2022 Added option to Hide \"Autoplay\" Section\r\n\t\u2022 Added option to Hide \"Try New Features\" Section\r\n\t\u2022 Added option to Hide \"Video quality preferences\" Section\r\n\t\u2022 Added option to Hide \"Notifications\" Section\r\n\t\u2022 Added option to Hide \"Manage all history\" Section\r\n\t\u2022 Added option to Hide \"Your data in YouTube\" Section\r\n\t\u2022 Added option to Hide \"Privacy\" Section\r\n\t\u2022 Added option to Hide \"Live Chat\" Section\r\n\t\u2022 Removed \"Disable Wi\u2022Fi Related Settings\"\r\n\u2022 Fixed all YTLitePlus localizations\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.38.2-2.3.1/YTLitePlus_18.38.2_2.3.1.ipa",
-          "size": 105055550
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.35.4",
           "date": "2023-09-08",
           "localizedDescription": "Current YouTube IPA: \"18.35.4\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.35.4\u20222.3.1: (2023\u202209\u202208)\r\n\r\n\u2022 Updated Youtube from \"18.34.5\" to \"18.35.4\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
-          "downloadURL": "https://codeberg.org/Balackburn/YTLitePlus/releases/download/v18.35.4-2.3.1/YTLitePlus_18.35.4_2.3.1.ipa",
-          "size": 104407606
+          "downloadURL": null,
+          "size": null
         },
         {
           "version": "18.34.5",
@@ -728,6 +742,17 @@
       "tintColor": "000000",
       "title": "19.16.3-3.0.1 - YTLitePlus  27/04/24",
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.16.3-3.0.1"
+    },
+    {
+      "appID": "com.google.ios.youtube",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-05-09T15:44:51Z",
+      "identifier": "release-19.18.2-3.0.1",
+      "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "tintColor": "000000",
+      "title": "19.18.2-3.0.1 - YTLitePlus  09/05/24",
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.18.2-3.0.1"
     }
   ]
 }
