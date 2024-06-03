@@ -14,15 +14,15 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Various Developers",
       "subtitle": "YTLite with more features!",
-      "version": "19.18.2",
-      "versionDate": "2024-05-09T15:44:51Z",
-      "versionDescription": "Current YouTube IPA: \"19.18.2\"  \r\nCurrent YTLite Version: \"3.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.18.2\u20223.0.1: (2024\u202205\u202209)\r\n\r\n\u2022 Updated Youtube from \"19.17.2\" to \"19.18.2\"\r\n\u2022 Updated submodules\r\n  \r\nIssues in this Release:\r\n\u2022 Homescreen is bugged when \u2018All\u2019 is selected 116\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite *(as the version is already spoofed by YTLite to fix YTClassicVideoQuality)*\r\n\u2022 Hiding Shorts creates an empty space instead 55",
-      "downloadURL": "https://files.catbox.moe/39xiux.ipa",
+      "version": "19.21.3",
+      "versionDate": "2024-06-03T01:57:21Z",
+      "versionDescription": "Current YouTube IPA: \"19.21.3\"  \r\nCurrent YTLite Version: \"4.0\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.21.3\u20224.0: (2024\u202206\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.19.5\" to \"19.21.3\"\r\n\r\n\u2022 Updated submodules\r\n\r\n\u2022 Updated @daynch96 YTLite from \"3.0.1\" to \"4.0\"\r\n    \u2022 Downloading feature\r\n    \u2022 Tweak UI improvements\r\n    \u2022 Added some player gestures\r\n    \u2022 Added Import/Export settings feature (Tweak preferences)\r\n    \u2022 Added Old/New UI toggle (Version spoofing)\r\n    \u2022 Added options to remove community posts and inline comment under the player\r\n    \u2022 Added OLED dark mode support\r\n    \u2022 Added option to speed up Shorts\r\n    \u2022 Lite version temporarily disabled\r\n    \u2022 Fixed blank screen issue (Thanks to @PoomSmart for the https://github.com/PoomSmart/YouTube\u2022X)\r\n    \u2022 Removed version spoofing on extra speed options and classic video quality as unneeded\r\n    \u2022 Fixed issues related to Disable auto\u2022caption feature\r\n    \u2022 Fixed crashes related to Auto\u2022quality feature\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*",
+      "downloadURL": "https://files.catbox.moe/p2f755.ipa",
       "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo",
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
-      "size": 113796369,
+      "size": 119287761,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -62,6 +62,13 @@
         }
       },
       "versions": [
+        {
+          "version": "19.21.3",
+          "date": "2024-06-03",
+          "localizedDescription": "Current YouTube IPA: \"19.21.3\"  \r\nCurrent YTLite Version: \"4.0\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 19.21.3\u20224.0: (2024\u202206\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.19.5\" to \"19.21.3\"\r\n\r\n\u2022 Updated submodules\r\n\r\n\u2022 Updated @daynch96 YTLite from \"3.0.1\" to \"4.0\"\r\n    \u2022 Downloading feature\r\n    \u2022 Tweak UI improvements\r\n    \u2022 Added some player gestures\r\n    \u2022 Added Import/Export settings feature (Tweak preferences)\r\n    \u2022 Added Old/New UI toggle (Version spoofing)\r\n    \u2022 Added options to remove community posts and inline comment under the player\r\n    \u2022 Added OLED dark mode support\r\n    \u2022 Added option to speed up Shorts\r\n    \u2022 Lite version temporarily disabled\r\n    \u2022 Fixed blank screen issue (Thanks to @PoomSmart for the https://github.com/PoomSmart/YouTube\u2022X)\r\n    \u2022 Removed version spoofing on extra speed options and classic video quality as unneeded\r\n    \u2022 Fixed issues related to Disable auto\u2022caption feature\r\n    \u2022 Fixed crashes related to Auto\u2022quality feature\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*",
+          "downloadURL": "https://files.catbox.moe/p2f755.ipa",
+          "size": 119287761
+        },
         {
           "version": "19.18.2",
           "date": "2024-05-09",
@@ -753,6 +760,17 @@
       "tintColor": "000000",
       "title": "19.18.2-3.0.1 - YTLitePlus  09/05/24",
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.18.2-3.0.1"
+    },
+    {
+      "appID": "com.google.ios.youtube",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-06-03T01:57:21Z",
+      "identifier": "release-19.21.3-4.0",
+      "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "tintColor": "000000",
+      "title": "19.21.3-4.0 - YTLitePlus  03/06/24",
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.21.3-4.0"
     }
   ]
 }
