@@ -778,6 +778,17 @@
       "tintColor": "000000",
       "title": "19.21.3-4.0 - YTLitePlus  03/06/24",
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.21.3-4.0"
+    },
+    {
+      "appID": "com.google.ios.youtube",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-06-09T19:17:30Z",
+      "identifier": "release-19.22.6-4.0.1",
+      "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "tintColor": "000000",
+      "title": "19.22.6-4.0.1 - YTLitePlus  09/06/24",
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.22.6-4.0.1"
     }
   ]
 }
