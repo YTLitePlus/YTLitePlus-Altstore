@@ -14,15 +14,15 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Various Developers",
       "subtitle": "YTLite with more features!",
-      "version": "19.22.6",
-      "versionDate": "2024-06-09T19:17:30Z",
-      "versionDescription": "Current YouTube IPA: \"19.22.6\"  \r\nCurrent YTLite Version: \"4.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.22.6\u20224.0.1: (2024\u202206\u202209)\r\n\r\n\u2022 Updated Youtube from \"19.21.3\" to \"19.22.6\"\r\n\u2022 Updated submodules\r\n\u2022 Updated YTLite from \"4.0\" to \"4.0.1\"\r\n    \u2022 Added ability to play videos in external players (System, Infuse, VLC)\r\n\r\n    \u2022 Added option to keep Shorts videos in the Subscriptions tab (https://github.com/dayanch96/YTLite/issues/91)\r\n\r\n    \u2022 Added ability to open shorts as regular videos using YTPlus menu button in Shorts\r\n\r\n    \u2022 Added ability to enable/disable auto\u2022skip shorts option using YTPlus menu button in Shorts\r\n\r\n    \u2022 Added option to disable Autoplay end\u2022screen recommendation (Enabling this option will also disable autoplay next video feature)\r\n\r\n    \u2022 Improved Shorts downloading which directly downloads best mp4 video\r\n\r\n    \u2022 Improved YTPlus button compatibility with the latest YouTube versions\r\n\r\n    \u2022 Improved YTPlus button compatibility with Inline muted playback (Player that displayed on video thumbnail)\r\n\r\n    \u2022 Fixed blank space issues on the big screens (https://github.com/dayanch96/YTLite/issues/105)\r\n\r\n    \u2022 Fixed crashes when trying to show share sheet on iPad devices\r\n\r\n    \u2022 Updated localization strings (https://github.com/dayanch96/YTLite/issues/106)\r\n\r\n    \u2022 Corrected some localization strings (https://github.com/dayanch96/YTLite/issues/112)\r\n\r\n    \u2022 Fixed an issue that caused the search bar to disappear (https://github.com/dayanch96/YTLite/issues/117)\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*",
-      "downloadURL": "https://files.catbox.moe/5vd19e.ipa",
+      "version": "19.23.3",
+      "versionDate": "2024-06-10",
+      "versionDescription": "Current YouTube IPA: \"19.23.3\"  \r\nCurrent YTLite Version: \"4.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.23.3\u20224.0.1: (2024\u202206\u202210)\r\n\r\n\u2022 Updated Youtube from \"19.22.6\" to \"19.23.3\"\r\n\u2022 Updated submodules\r\n\u2022 Fixed compiling\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"pmsw97.ipa\"",
+      "downloadURL": "https://files.catbox.moe/pmsw97.ipa",
       "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo",
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
-      "size": 119401636,
+      "size": 119751592,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
         "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
@@ -62,6 +62,13 @@
         }
       },
       "versions": [
+        {
+          "version": "19.23.3",
+          "date": "2024-06-10",
+          "localizedDescription": "Current YouTube IPA: \"19.23.3\"  \r\nCurrent YTLite Version: \"4.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.23.3\u20224.0.1: (2024\u202206\u202210)\r\n\r\n\u2022 Updated Youtube from \"19.22.6\" to \"19.23.3\"\r\n\u2022 Updated submodules\r\n\u2022 Fixed compiling\r\n\r\n  \r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"pmsw97.ipa\"",
+          "downloadURL": "https://files.catbox.moe/pmsw97.ipa",
+          "size": 119751592
+        },
         {
           "version": "19.22.6",
           "date": "2024-06-09",
@@ -789,6 +796,17 @@
       "tintColor": "000000",
       "title": "19.22.6-4.0.1 - YTLitePlus  09/06/24",
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.22.6-4.0.1"
+    },
+    {
+      "appID": "com.google.ios.youtube",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-06-10T21:49:59Z",
+      "identifier": "release-19.23.3-4.0.1",
+      "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "tintColor": "000000",
+      "title": "19.23.3-4.0.1 - YTLitePlus  10/06/24",
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.23.3-4.0.1"
     }
   ]
 }
