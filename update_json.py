@@ -40,7 +40,7 @@ def get_file_size(url):
         return int(response.headers.get('Content-Length', 0))
     except requests.RequestException as e:
         print(f"Error getting file size: {e}")
-        return None
+        return 111020044
 
 def update_json_file(json_file, latest_release):
     try:
