@@ -4,14 +4,10 @@ import requests
 import os
 from datetime import datetime
 
-# GitHub API token
-github_token = os.environ.get('GITHUB_TOKEN')
-
 def fetch_latest_release(repo_url, keyword):
     api_url = f"https://api.github.com/repos/{repo_url}/releases"
     headers = {
         "Accept": "application/vnd.github+json",
-        "Authorization": f"token {github_token}"
     }
     try:
         response = requests.get(api_url, headers=headers)
