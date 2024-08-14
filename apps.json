@@ -33,7 +33,7 @@
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/7.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/8.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/9.png"
-        ],
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.security.application-groups",
