@@ -22,7 +22,7 @@
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
-      "size": 111020044,
+      "size": 111368802,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
@@ -68,7 +68,7 @@
           "date": "2024-08-14",
           "localizedDescription": "Current YouTube IPA: \"19.32.6\"  \r\nCurrent YTLite Version: \"4.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.32.6\u20224.0.1: (2024\u202208\u202214)\r\n\r\n\u2022 Updated Youtube from \"19.29.1\" to \"19.32.6\"\r\n\r\nNew Features\r\n\u2022 Added YouTimeStamp (@arichornloverALT)\r\n\u2022 Added \"Copy Settings\" and \"Paste Settings\" (@arichornlover)\r\n\u2022 Add reporting option (@bhackel)\r\n\u2022 Live Chat OLED dark mode (@bhackel)\r\n\u2022 Add Hide Speed Toast (@bhackel)\r\n\r\nBug Fixes\r\n\u2022 Fix building on iOS 14 (@bhackel) [278](https://github.com/YTLitePlus/YTLitePlus/pull/278)\r\n\u2022 Fix dylib injection issue (@bhackel)\r\n\u2022 Fix YouTube Extensions bug (@bhackel)\r\n\u2022 Fix delete workflows (@bhackel)\r\n\u2022 Fix localization and copy/paste switch (@bhackel)\r\n\u2022 Fix LowContrastMode description (@arichornlover)\r\n\u2022 Fix build error (@bhackel)\r\n\u2022 Fix OLED live chat (@bhackel) [331](https://github.com/YTLitePlus/YTLitePlus/pull/331)\r\n\r\nImprovements\r\n\u2022 Cleanup Makefile and actions script (@bhackel)\r\n\u2022 Default disable big mini player (@bhackel)\r\n\u2022 Hide comment previews (@bhackel)\r\n\u2022 Hide autoplay mini preview (@bhackel)\r\n\u2022 Remove YTLitePlus OLED Theme (@bhackel)\r\n\u2022 Copy Hide HUD and Hide Collapse Button (@bhackel)\r\n\r\nLocalization\r\n\u2022 Fix import/export settings localization (@bhackel)\r\n\u2022 Turkish: Added proper localization (@gototheskinny) [283](https://github.com/YTLitePlus/YTLitePlus/pull/283), updated (@gototheskinny) [336](https://github.com/YTLitePlus/YTLitePlus/pull/336)\r\n\u2022 Bulgarian: Added translations (@schweppes\u20220x) [332](https://github.com/YTLitePlus/YTLitePlus/pull/332)\r\n\u2022 Portuguese: Updated localization (@VictorxD70) [326](https://github.com/YTLitePlus/YTLitePlus/pull/326)\r\n\u2022 Added missing strings to localization (@Balackburn)\r\n\u2022 Updated Localizable.strings (@manhchuduc) [305](https://github.com/YTLitePlus/YTLitePlus/pull/305)\r\n\r\nUpdated Submodules\r\n\u2022 Added YouTimeStamp submodule\r\n\u2022 DontEatMyContent\r\n\u2022 YouGroupSettings\r\n\u2022 YouTubeHeader\r\n\u2022 iSponsorBlock\r\n\u2022 YTABConfig\r\n\u2022 YTUHD\r\n\u2022 Return\u2022YouTube\u2022Dislikes\r\n\u2022 YouMute\r\n\u2022 protobuf \r\n\r\nContributors\r\n\u2022 @bhackel\r\n\u2022 @arichornlover\r\n\u2022 @gototheskinny\r\n\u2022 @Balackburn\r\n\u2022 @manhchuduc\r\n\u2022 @VictorxD70\r\n\u2022 @schweppes\u20220x\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 YouTube crashing when viewing Shorts\r\n\r\nCatbox\r\n\"98ns5s.ipa\"",
           "downloadURL": "https://files.catbox.moe/98ns5s.ipa",
-          "size": 111020044
+          "size": 111368802
         },
         {
           "version": "19.29.1",
