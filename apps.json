@@ -14,15 +14,15 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "Various Developers",
       "subtitle": "YTLite with more features!",
-      "version": "19.32.6",
-      "versionDate": "2024-08-14",
-      "versionDescription": "Current YouTube IPA: \"19.32.6\"  \r\nCurrent YTLite Version: \"4.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.32.6\u20224.0.1: (2024\u202208\u202214)\r\n\r\n\u2022 Updated Youtube from \"19.29.1\" to \"19.32.6\"\r\n\r\nNew Features\r\n\u2022 Added YouTimeStamp (@arichornloverALT)\r\n\u2022 Added \"Copy Settings\" and \"Paste Settings\" (@arichornlover)\r\n\u2022 Add reporting option (@bhackel)\r\n\u2022 Live Chat OLED dark mode (@bhackel)\r\n\u2022 Add Hide Speed Toast (@bhackel)\r\n\r\nBug Fixes\r\n\u2022 Fix building on iOS 14 (@bhackel) [278](https://github.com/YTLitePlus/YTLitePlus/pull/278)\r\n\u2022 Fix dylib injection issue (@bhackel)\r\n\u2022 Fix YouTube Extensions bug (@bhackel)\r\n\u2022 Fix delete workflows (@bhackel)\r\n\u2022 Fix localization and copy/paste switch (@bhackel)\r\n\u2022 Fix LowContrastMode description (@arichornlover)\r\n\u2022 Fix build error (@bhackel)\r\n\u2022 Fix OLED live chat (@bhackel) [331](https://github.com/YTLitePlus/YTLitePlus/pull/331)\r\n\r\nImprovements\r\n\u2022 Cleanup Makefile and actions script (@bhackel)\r\n\u2022 Default disable big mini player (@bhackel)\r\n\u2022 Hide comment previews (@bhackel)\r\n\u2022 Hide autoplay mini preview (@bhackel)\r\n\u2022 Remove YTLitePlus OLED Theme (@bhackel)\r\n\u2022 Copy Hide HUD and Hide Collapse Button (@bhackel)\r\n\r\nLocalization\r\n\u2022 Fix import/export settings localization (@bhackel)\r\n\u2022 Turkish: Added proper localization (@gototheskinny) [283](https://github.com/YTLitePlus/YTLitePlus/pull/283), updated (@gototheskinny) [336](https://github.com/YTLitePlus/YTLitePlus/pull/336)\r\n\u2022 Bulgarian: Added translations (@schweppes\u20220x) [332](https://github.com/YTLitePlus/YTLitePlus/pull/332)\r\n\u2022 Portuguese: Updated localization (@VictorxD70) [326](https://github.com/YTLitePlus/YTLitePlus/pull/326)\r\n\u2022 Added missing strings to localization (@Balackburn)\r\n\u2022 Updated Localizable.strings (@manhchuduc) [305](https://github.com/YTLitePlus/YTLitePlus/pull/305)\r\n\r\nUpdated Submodules\r\n\u2022 Added YouTimeStamp submodule\r\n\u2022 DontEatMyContent\r\n\u2022 YouGroupSettings\r\n\u2022 YouTubeHeader\r\n\u2022 iSponsorBlock\r\n\u2022 YTABConfig\r\n\u2022 YTUHD\r\n\u2022 Return\u2022YouTube\u2022Dislikes\r\n\u2022 YouMute\r\n\u2022 protobuf \r\n\r\nContributors\r\n\u2022 @bhackel\r\n\u2022 @arichornlover\r\n\u2022 @gototheskinny\r\n\u2022 @Balackburn\r\n\u2022 @manhchuduc\r\n\u2022 @VictorxD70\r\n\u2022 @schweppes\u20220x\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\u2022 YouTube crashing when viewing Shorts\r\n\r\nCatbox\r\n\"98ns5s.ipa\"",
-      "downloadURL": "https://files.catbox.moe/98ns5s.ipa",
+      "version": "19.34.2",
+      "versionDate": "2024-09-03",
+      "versionDescription": "Current YouTube IPA: \"19.34.2\"  \r\nCurrent YTLite Version: \"5.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
+      "downloadURL": "https://files.catbox.moe/z8jg5n.ipa",
       "localizedDescription": "YTLite with more features!\n\nYTLitePlus is an enhanced Youtube app that offers a superior Youtube experience, combining YTLite (by @dayanch96) with numerous other tweaks :\n\n\u2022 YTLite\n\u2022 YTUHD\n\u2022 YouPiP\n\u2022 YTABConfig\n\u2022 YouMute\n\u2022 DontEatMyContent\n\u2022 Return YouTube Dislikes\n\u2022 iSponsorBlock\n\u2022 YouRememberCaption\n\u2022 YTNoTracking\n\u2022 YTUnShorts\n\u2022 YTNoCheckLocalNetwork\n\u2022 BigYTMiniPlayer\n\u2022 YTSpeed\n\u2022 YTHoldForSpeed\n\u2022 YTVideoOverlay\n\u2022 YouQuality\n\u2022 YTNoModernUI\n\u2022 OLEDDarkmode\n\u2022 OLDDarkmode\n\u2022 LowContrastMode\n\u2022 YTNoSuggestedVideo\n\nCredit\n\n@Balackburn, @bhackel, @Deci8BelioS, @matt911, @arichornloverALT, @Macleykun, @AlexInABox, @SKEIDs, @VictorxD70, @Glenta, @zSaaiq, @MrAlucardDante, @gototheskinny, @asdfzxcvbn, @dayanch96, @ssuesskind, @MiRO92, @qnblackcat, @PoomSmart, @level3tjg, @BandarHL, @Galactic-Dev, @julioverne, @hbang, @Lyvendia, @therealFoxster, @ichitaso, @AhmedBafkir, @CokePokes, @ISnackable",
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
-      "size": 111368802,
+      "size": 103674391,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
@@ -63,6 +63,13 @@
         }
       },
       "versions": [
+        {
+          "version": "19.34.2",
+          "date": "2024-09-03",
+          "localizedDescription": "Current YouTube IPA: \"19.34.2\"  \r\nCurrent YTLite Version: \"5.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
+          "downloadURL": "https://files.catbox.moe/z8jg5n.ipa",
+          "size": 103674391
+        },
         {
           "version": "19.32.6",
           "date": "2024-08-14",
@@ -844,6 +851,17 @@
       "tintColor": "000000",
       "title": "19.32.6-4.0.1 - YTLitePlus  14/08/24",
       "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.32.6-4.0.1"
+    },
+    {
+      "appID": "com.google.ios.youtube",
+      "caption": "Update of YTLitePlus just got released!",
+      "date": "2024-09-03T05:09:38Z",
+      "identifier": "release-19.34.2-5.0.1",
+      "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
+      "notify": true,
+      "tintColor": "000000",
+      "title": "19.34.2-5.0.1 - YTLitePlus  03/09/24",
+      "url": "https://github.com/Balackburn/YTLitePlus/releases/tag/v19.34.2-5.0.1"
     }
   ]
 }
