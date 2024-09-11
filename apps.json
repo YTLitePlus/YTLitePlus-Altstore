@@ -59,7 +59,8 @@
           "NSLocalNetworkUsageDescription": "YTLitePlus requires local network access to connect and communicate with nearby devices.",
           "NSLocationWhenInUseUsageDescription": "YTLitePlus requires access to your location while using the app to provide personalized recommendations.",
           "NSMicrophoneUsageDescription": "YTLitePlus requires access to your microphone to record audio.",
-          "NSPhotoLibraryUsageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos."
+          "NSPhotoLibraryUsageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YTLitePlus will link activity from this app with activity from non-Google apps and websites."
         }
       },
       "versions": [
