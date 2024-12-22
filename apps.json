@@ -22,7 +22,7 @@
       "iconURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/Youtube_logo-512.png",
       "tintColor": "e22a41",
       "category": "social",
-      "size": 103674391,
+      "size": 111020044,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/1.png",
         "https://raw.githubusercontent.com/YTLitePlus/Assets/main/Screenshots/2.png",
@@ -69,7 +69,7 @@
           "date": "2024-09-03",
           "localizedDescription": "Current YouTube IPA: \"19.34.2\"  \r\nCurrent YTLite Version: \"5.0.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 15.0\" or later\r\n\r\nRELEASE 19.34.2\u20225.0.1: (2024\u202209\u202203)\r\n\r\n\u2022 Updated Youtube from \"19.32.6\" to \"19.34.2\"\r\n\u2022 Updated YTLite from \"4.0.1\" to \"5.0.1\"\r\n\r\nIssues in this Release:\r\n\u2022 Touches will not work while bypassing startup popup\r\n\u2022 LowContrastMode does not work *(Compatible only with YouTube v17.33.2\u2022v17.38.10)*\r\n\r\nCatbox\r\n\"z8jg5n.ipa\"",
           "downloadURL": "https://files.catbox.moe/z8jg5n.ipa",
-          "size": 103674391
+          "size": 111020044
         },
         {
           "version": "19.32.6",
