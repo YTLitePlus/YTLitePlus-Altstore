@@ -2,47 +2,24 @@ import json
 import re
 import requests
 import os
+import sys
 from datetime import datetime
 
-def fetch_latest_release(repo_url, keyword):
-    api_url = f"https://api.github.com/repos/{repo_url}/releases"
-    headers = {
-        "Accept": "application/vnd.github+json",
-    }
+def get_file_metadata(url):
     try:
-        response = requests.get(api_url, headers=headers)
+        response = requests.head(url, headers={"User-Agent": "Github-Actions"}, timeout=10)
         response.raise_for_status()
-        releases = response.json()
-        for release in releases:
-            if keyword in release["name"]:
-                return release
-        raise ValueError(f"No release found containing the keyword '{keyword}'.")
+        return int(response.headers.get('Content-Length')), datetime.strptime(response.headers.get('Last-Modified'), "%a, %d %b %Y %H:%M:%S %Z")
     except requests.RequestException as e:
-        print(f"Error fetching releases: {e}")
+        print(f"Error requesting file size and creation date: {e}")
+        raise
+    except TypeError as e:
+        print(f"Error while retrieving size and creation date from server response: {e}")
         raise
 
-def remove_tags(text):
-    text = re.sub('<[^<]+?>', '', text)
-    text = re.sub(r'#{1,6}\s?', '', text)
-    return text
+def update_json_file(json_file, download_url, ytliteplus_version, version):
+    size, date_obj = get_file_metadata(download_url)
 
-def extract_catbox_url(description):
-    catbox_url_prefix = "https://files.catbox.moe/"
-    match = re.search(r'### Catbox\s*`([^`]+)`', description)
-    if match:
-        return catbox_url_prefix + match.group(1)
-    return None
-
-def get_file_size(url):
-    try:
-        response = requests.head(url)
-        response.raise_for_status()
-        return int(response.headers.get('Content-Length', 0))
-    except requests.RequestException as e:
-        print(f"Error getting file size: {e}")
-        return 111020044
-
-def update_json_file(json_file, latest_release):
     try:
         with open(json_file, "r") as file:
             data = json.load(file)
@@ -54,25 +31,12 @@ def update_json_file(json_file, latest_release):
     if "versions" not in app:
         app["versions"] = []
 
-    full_version = latest_release["tag_name"].lstrip('v')
-    tag = latest_release["tag_name"]
+    full_version = version.lstrip('v')
+    tag = version
     version = re.search(r"(\d+\.\d+\.\d+)", full_version).group(1)
-    version_date = latest_release["published_at"]
-    date_obj = datetime.strptime(version_date, "%Y-%m-%dT%H:%M:%SZ")
-    version_date = date_obj.strftime("%Y-%m-%d")
+    version_date = date_obj.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    description = latest_release["body"]
-    keyword = "YTLitePlus Release Information"
-    if keyword in description:
-        description = description.split(keyword, 1)[1].strip()
-
-    description = remove_tags(description)
-    description = re.sub(r'\*{2}', '', description)
-    description = re.sub(r'-', '•', description)
-    description = re.sub(r'`', '"', description)
-
-    download_url = extract_catbox_url(latest_release["body"])
-    size = get_file_size(download_url) if download_url else None
+    description = f"Current YouTube IPA: {version}\r\nCurrent YTLite Version: {ytliteplus_version}"
 
     version_entry = {
         "version": version,
@@ -104,7 +68,7 @@ def update_json_file(json_file, latest_release):
     news_entry = {
         "appID": "com.google.ios.youtube",
         "caption": f"Update of YTLitePlus just got released!",
-        "date": latest_release["published_at"],
+        "date": version_date,
         "identifier": news_identifier,
         "imageURL": "https://raw.githubusercontent.com/YTLitePlus/YTLitePlus-Altstore/main/screenshots/news/new_release.png",
         "notify": True,
@@ -126,13 +90,16 @@ def update_json_file(json_file, latest_release):
         raise
 
 def main():
-    repo_url = "YTLitePlus/YTLitePlus"
+    if len(sys.argv) < 4:
+        raise TypeError(f"Not enough arguments:\n{os.path.basename(__file__)} <download_url> <yt_version> <ytliteplus_version>")
+    download_url = sys.argv[1]
+    ytliteplus_version = sys.argv[2]
+    yt_version = sys.argv[3]
+
     json_file = "apps.json"
-    keyword = "YTLitePlus"
 
     try:
-        fetched_data_latest = fetch_latest_release(repo_url, keyword)
-        update_json_file(json_file, fetched_data_latest)
+        update_json_file(json_file, download_url, ytliteplus_version, yt_version)
     except Exception as e:
         print(f"An error occurred: {e}")
         raise
