@@ -1,0 +1,51 @@
+name: Check Youtube Version
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      new_version: ${{ steps.check.outputs.new_version }}
+      yt_version: ${{ steps.check.outputs.yt_version }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest Youtube App Store version
+        id: check
+        run: |
+          LATEST=$(curl -s "https://itunes.apple.com/lookup?bundleId=com.google.ios.youtube&country=us" \
+            | python3 -c "import sys,json; print(json.load(sys.stdin)['results'][0]['version'])")
+          echo "Latest YouTube: $LATEST"
+
+          STORED=$(cat .github/last_yt_version.txt 2>/dev/null || echo "0")
+          echo "Stored: $STORED"
+
+          if [ "$LATEST" != "$STORED" ]; then
+            echo "new_version=true" >> $GITHUB_OUTPUT
+            echo "yt_version=$LATEST" >> $GITHUB_OUTPUT
+          else
+            echo "new_version=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Save new version
+        if: steps.check.outputs.new_version == 'true'
+        run: |
+          echo "${{ steps.check.outputs.yt_version }}" > .github/last_yt_version.txt
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .github/last_yt_version.txt
+          git commit -m "chore: bump tracked YT version to ${{ steps.check.outputs.yt_version }}"
+          git push
+
+  trigger-build:
+    needs: check
+    if: needs.check.outputs.new_version == 'true'
+    uses: ./.github/workflows/buildapp.yml
+    with:
+      yt_version: ${{ needs.check.outputs.yt_version }}
+    secrets: inherit
